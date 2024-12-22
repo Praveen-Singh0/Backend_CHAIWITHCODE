@@ -6,6 +6,10 @@ app.get('/', (req, res) => {
   res.send('HERE IS MY HOME PAGE');
 });
 
+app.get("/login", ()=>{
+  res.send("Login credentials")
+})
+
 const port = 3000;
 
 app.listen(port, () => {
