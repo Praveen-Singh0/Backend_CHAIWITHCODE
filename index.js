@@ -3,12 +3,12 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-  res.send('Hello, World!');
+  res.send('HERE IS MY HOME PAGE');
 });
 
 const port = 3000;
 
-app.listen(process.env.PORT, () => {
+app.listen(port, () => {
   console.log(`Server is running at ${port}`);
 });
 
