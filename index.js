@@ -6,7 +6,7 @@ app.get('/', (req, res) => {
   res.send('HERE IS MY HOME PAGE');
 });
 
-app.get("/login", ()=>{
+app.get("/login", (req, res)=>{
   res.send("Login credentials")
 })
 
